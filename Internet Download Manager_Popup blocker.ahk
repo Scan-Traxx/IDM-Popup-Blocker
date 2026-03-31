@@ -22,7 +22,7 @@ SetCapsLockState, Off
 
 
 if WinExist("Neue Version verfügbar!")
-    WinClose
+    WinKill
 
 if WinExist("", "Aufgrund")
     ControlSend,, j, ahk_exe IDMan.exe
